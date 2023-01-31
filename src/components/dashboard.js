@@ -87,57 +87,7 @@ boxShadow: "0px 0px 9px 4px rgb(0 0 0 / 4%), 0px 5px 0px 10px rgb(0 0 0 / 0%), 0
     length:[],
     average:[],
     donation:[],
-    // name:[],
-    // date:[],
-    // img:[],
-    // valuee:[],
-    
   })
-
-
-  // const name=[]
-  // const date=[]
-  // const img=[]
-  // const fetchData=()=>{
-  //   return axios.get('http://localhost:4002/data').then((res)=>{
-  //     console.log("response",res)
-  //     res.data.map(item=>{
-  //         console.log("item",item)
-  //         donation.push(item.donation)
-  //         name.push(item.employee_name)
-  //         date.push(item.date)
-  //         img.push(item.image)
-      
-  //     })
-      // const map = donation.reduce((acc, e) => acc.set(e, (acc.get(e) || 0) + 1), new Map());
-      //  const num=[...map.values()]
-      //  const value=[...map.keys()]
-      // console.log("val",value)
-
-
-      // const length=res.data.length
-      // console.log("length",length)
-
-      //  const sum =Math.floor( donation.reduce((a, b) => a + b, 0))
-      //  console.log("sum",sum)
-
-      //  const average=Math.floor((sum/length))
-      //  console.log("avg",average)
-
-    //  setValue({
-    //   sum:sum,
-    //   length:length,
-    //   average:average,
-    //   donation:donation,
-    //   name:name,
-    //   date:date,
-    //   img:img,
-    //   // valuee:valuee,
-    //  })  
-
-  // })
-  // }
-  console.log(fetchPosts)
 
   const [page,setPage]=useState(1)
 
@@ -150,7 +100,6 @@ boxShadow: "0px 0px 9px 4px rgb(0 0 0 / 4%), 0px 5px 0px 10px rgb(0 0 0 / 0%), 0
     const sum =Math.floor( donation.reduce((a, b) => a + b, 0))
     console.log("sum",sum)
     const length=data?.data.length
-    // const length=27
     console.log("length",length)
     const average=Math.floor((sum/length))
     console.log("avg",average)
