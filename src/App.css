@@ -89,7 +89,7 @@ input{
   background-color: #fff;
   /* padding-right: 100px;
   padding-left: 30px;*/
-  width: 365px;
+  width: 35%;
   margin-right: 1px;
   border-right: 0.5px solid rgb(230,227,227);
   min-height: 100vh;
@@ -289,7 +289,8 @@ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans 
 .main{
   margin:0px 25px;
   margin-top: 10px;
-  height: 1200px;
+  height: 2100px;
+  width: 165%;
 }
 .middle-container{
   margin-top: 30px;
