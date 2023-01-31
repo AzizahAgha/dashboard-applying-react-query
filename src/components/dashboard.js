@@ -45,7 +45,7 @@ import { baroptions } from "./charts";
 
 
 const fetchPosts=(page)=>{
-  return axios.get(` http://localhost:4002/data?_limit=27&_page=${page}`)
+  return axios.get(` http://localhost:4002/data?_limit=18&_page=${page}`)
 }
 
 
