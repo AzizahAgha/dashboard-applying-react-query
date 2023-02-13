@@ -1,6 +1,6 @@
 import React,{useState} from "react";
 import axios from "axios";
-import { useMutation, useQuery ,useQueryClient} from 'react-query'
+import {useQuery} from 'react-query'
 import { Link } from "react-router-dom";
 import {Grid} from '@mui/material'
 import { styled } from '@mui/material/styles';
@@ -28,18 +28,9 @@ import Settings from '@mui/icons-material/Settings';
 import Logout from '@mui/icons-material/Logout';
 import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
 import img1 from './images/fav.png'
-import img2 from './images/whale.png'
 import img3 from './images/bird.png'
 import img4 from './images/snail.png'
-import img5 from './images/jaq.jfif'
-import img6 from './images/matt.jfif'
-import img7 from './images/alex.jfif'
-import img8 from './images/matheww.jfif'
-import img9 from './images/Carla.jfif'
-import img10 from './images/sam.webp'
-
 import {SideBar} from "./sidebar";
-import ApexChart from "./apexchart";
 import { options } from "./charts";
 import { baroptions } from "./charts";
 
@@ -112,7 +103,7 @@ boxShadow: "0px 0px 9px 4px rgb(0 0 0 / 4%), 0px 5px 0px 10px rgb(0 0 0 / 0%), 0
     }          
 }
 
-  const {isLoading,isError,error,data,isFetching,refetch} = useQuery(['data',page],
+  const {isLoading,isError,error,data} = useQuery(['data',page],
   ()=>fetchPosts(page),{
     onSuccess
   })
