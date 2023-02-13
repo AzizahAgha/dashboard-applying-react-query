@@ -156,7 +156,7 @@ export default function ApexChart(){
         subtitle: {
           text: 'Age/Salary Movements',
           align: 'left'
-        }, colors: ["#ff0000", "#43a047","#247BA0"]
+        }
       })
 
       const [series,setSeries]=useState([
