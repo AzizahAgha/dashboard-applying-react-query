@@ -74,7 +74,6 @@ export const ListPost = () => {
   
     if(isError){
         return <h2>{error.message}</h2>
-        setVisible(true)
     }
    
     return (
