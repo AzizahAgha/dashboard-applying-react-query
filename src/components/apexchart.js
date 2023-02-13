@@ -1,7 +1,5 @@
 import axios from "axios";
-import React, { useEffect } from "react";
-import { useState } from "react";
-import { color, shadows } from '@mui/system';
+import React, { useEffect,useState } from "react";
 import Chart from "react-apexcharts";
 import {Grid} from '@mui/material'
 import { styled } from '@mui/material/styles';
@@ -13,8 +11,6 @@ import TextField from '@mui/material/TextField';
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 import { DatePicker } from '@mui/x-date-pickers/DatePicker';
-import { StaticDatePicker } from '@mui/x-date-pickers/StaticDatePicker';
-import { DatePickerComponent } from '@syncfusion/ej2-react-calendars';
 import dayjs from 'dayjs';
 import {grey} from '@mui/material/colors';
 import {DataGrid} from '@mui/x-data-grid'
@@ -25,7 +21,6 @@ import LocalShippingTwoToneIcon from '@mui/icons-material/LocalShippingTwoTone';
 import NotificationsActiveOutlinedIcon from '@mui/icons-material/NotificationsActiveOutlined';
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 import StackedBarChartOutlinedIcon from '@mui/icons-material/StackedBarChartOutlined';
-import PsychologyOutlinedIcon from '@mui/icons-material/PsychologyOutlined';
 import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
 import AddIcon from '@mui/icons-material/Add';
 import Menu from '@mui/material/Menu';
@@ -34,7 +29,6 @@ import MenuIcon from '@mui/icons-material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import Divider from '@mui/material/Divider';
-import PersonAdd from '@mui/icons-material/PersonAdd';
 import Settings from '@mui/icons-material/Settings';
 import Logout from '@mui/icons-material/Logout';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
