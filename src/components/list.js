@@ -106,7 +106,6 @@ export default function List(){
         
           if(isError){
               return <h2>{error.message}</h2>
-              setVisible(true)
           }
 
          
